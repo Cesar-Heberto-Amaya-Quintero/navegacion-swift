@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		3DCEF58328D369A00069BB5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF58228D369A00069BB5C /* AppDelegate.swift */; };
 		3DCEF58528D369A00069BB5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF58428D369A00069BB5C /* SceneDelegate.swift */; };
-		3DCEF58728D369A00069BB5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF58628D369A00069BB5C /* ViewController.swift */; };
+		3DCEF58728D369A00069BB5C /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF58628D369A00069BB5C /* MenuController.swift */; };
 		3DCEF58A28D369A00069BB5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCEF58828D369A00069BB5C /* Main.storyboard */; };
 		3DCEF58C28D369A50069BB5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DCEF58B28D369A50069BB5C /* Assets.xcassets */; };
 		3DCEF58F28D369A50069BB5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DCEF58D28D369A50069BB5C /* LaunchScreen.storyboard */; };
 		3DCEF59A28D369A60069BB5C /* navegacionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF59928D369A60069BB5C /* navegacionTests.swift */; };
 		3DCEF5A528D369A60069BB5C /* navegacionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF5A428D369A60069BB5C /* navegacionUITests.swift */; };
+		3DCEF5B328D36DDC0069BB5C /* JuecoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF5B228D36DDC0069BB5C /* JuecoController.swift */; };
+		3DCEF5B528D37DC60069BB5C /* Pantalla3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF5B428D37DC60069BB5C /* Pantalla3.swift */; };
+		3DCEF5B728D37DF30069BB5C /* Pantalla4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF5B628D37DF30069BB5C /* Pantalla4.swift */; };
+		3DCEF5B928D37E010069BB5C /* Pantalla5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF5B828D37E010069BB5C /* Pantalla5.swift */; };
+		3DCEF5BB28D37E4D0069BB5C /* Pantalla6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF5BA28D37E4D0069BB5C /* Pantalla6.swift */; };
+		3DCEF5BD28D37E5A0069BB5C /* Pantalla7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF5BC28D37E5A0069BB5C /* Pantalla7.swift */; };
+		3DCEF5BF28D37E650069BB5C /* Pantalla8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF5BE28D37E650069BB5C /* Pantalla8.swift */; };
+		3DCEF5C128D37E6E0069BB5C /* Pantalla9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF5C028D37E6E0069BB5C /* Pantalla9.swift */; };
+		3DCEF5C328D37E7E0069BB5C /* Pantalla10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCEF5C228D37E7E0069BB5C /* Pantalla10.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +47,7 @@
 		3DCEF57F28D3699F0069BB5C /* navegacion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = navegacion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCEF58228D369A00069BB5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DCEF58428D369A00069BB5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3DCEF58628D369A00069BB5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DCEF58628D369A00069BB5C /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		3DCEF58928D369A00069BB5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DCEF58B28D369A50069BB5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DCEF58E28D369A50069BB5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		3DCEF5A028D369A60069BB5C /* navegacionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = navegacionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DCEF5A428D369A60069BB5C /* navegacionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navegacionUITests.swift; sourceTree = "<group>"; };
 		3DCEF5A628D369A60069BB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCEF5B228D36DDC0069BB5C /* JuecoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuecoController.swift; sourceTree = "<group>"; };
+		3DCEF5B428D37DC60069BB5C /* Pantalla3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla3.swift; sourceTree = "<group>"; };
+		3DCEF5B628D37DF30069BB5C /* Pantalla4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla4.swift; sourceTree = "<group>"; };
+		3DCEF5B828D37E010069BB5C /* Pantalla5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla5.swift; sourceTree = "<group>"; };
+		3DCEF5BA28D37E4D0069BB5C /* Pantalla6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla6.swift; sourceTree = "<group>"; };
+		3DCEF5BC28D37E5A0069BB5C /* Pantalla7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla7.swift; sourceTree = "<group>"; };
+		3DCEF5BE28D37E650069BB5C /* Pantalla8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla8.swift; sourceTree = "<group>"; };
+		3DCEF5C028D37E6E0069BB5C /* Pantalla9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla9.swift; sourceTree = "<group>"; };
+		3DCEF5C228D37E7E0069BB5C /* Pantalla10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pantalla10.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +119,16 @@
 			children = (
 				3DCEF58228D369A00069BB5C /* AppDelegate.swift */,
 				3DCEF58428D369A00069BB5C /* SceneDelegate.swift */,
-				3DCEF58628D369A00069BB5C /* ViewController.swift */,
+				3DCEF58628D369A00069BB5C /* MenuController.swift */,
+				3DCEF5B228D36DDC0069BB5C /* JuecoController.swift */,
+				3DCEF5B428D37DC60069BB5C /* Pantalla3.swift */,
+				3DCEF5B628D37DF30069BB5C /* Pantalla4.swift */,
+				3DCEF5B828D37E010069BB5C /* Pantalla5.swift */,
+				3DCEF5BA28D37E4D0069BB5C /* Pantalla6.swift */,
+				3DCEF5BC28D37E5A0069BB5C /* Pantalla7.swift */,
+				3DCEF5BE28D37E650069BB5C /* Pantalla8.swift */,
+				3DCEF5C028D37E6E0069BB5C /* Pantalla9.swift */,
+				3DCEF5C228D37E7E0069BB5C /* Pantalla10.swift */,
 				3DCEF58828D369A00069BB5C /* Main.storyboard */,
 				3DCEF58B28D369A50069BB5C /* Assets.xcassets */,
 				3DCEF58D28D369A50069BB5C /* LaunchScreen.storyboard */,
@@ -259,9 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DCEF58728D369A00069BB5C /* ViewController.swift in Sources */,
+				3DCEF5BD28D37E5A0069BB5C /* Pantalla7.swift in Sources */,
+				3DCEF5B528D37DC60069BB5C /* Pantalla3.swift in Sources */,
+				3DCEF58728D369A00069BB5C /* MenuController.swift in Sources */,
+				3DCEF5BF28D37E650069BB5C /* Pantalla8.swift in Sources */,
 				3DCEF58328D369A00069BB5C /* AppDelegate.swift in Sources */,
+				3DCEF5C328D37E7E0069BB5C /* Pantalla10.swift in Sources */,
+				3DCEF5B928D37E010069BB5C /* Pantalla5.swift in Sources */,
+				3DCEF5B328D36DDC0069BB5C /* JuecoController.swift in Sources */,
+				3DCEF5BB28D37E4D0069BB5C /* Pantalla6.swift in Sources */,
 				3DCEF58528D369A00069BB5C /* SceneDelegate.swift in Sources */,
+				3DCEF5B728D37DF30069BB5C /* Pantalla4.swift in Sources */,
+				3DCEF5C128D37E6E0069BB5C /* Pantalla9.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
